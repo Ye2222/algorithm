@@ -158,12 +158,3 @@ public class Binary_tree {
     }
 }
 
-class node{
-    node left;
-    node right;
-    int val;
-    public node(){}
-    public node(int val) {
-        this.val = val;
-    }
-}
