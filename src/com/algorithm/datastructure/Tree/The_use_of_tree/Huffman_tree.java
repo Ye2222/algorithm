@@ -297,7 +297,7 @@ public class Huffman_tree {
     // 文件解压(文件恢复)
     // 将前面压缩的文件，重新恢复成原来的文件
     // 思路：读取压缩文件（数据和赫夫曼编码表）-> 完成解压（文件恢复）
-//编写一个方法， 完成对压缩文件的解压
+    //编写一个方法， 完成对压缩文件的解压
     /**
      *
      *
@@ -379,7 +379,7 @@ public class Huffman_tree {
         for(byte b: bytes) {
             stringBuilder.append(huffmanCodes.get(b));
         } //
-//        System.out.println("测试 stringBuilder~~~=" + stringBuilder.toString());
+        //System.out.println("测试 stringBuilder~~~=" + stringBuilder.toString());
         //将 "1010100010111111110..." 转成 byte[]
         //统计返回 byte[] huffmanCodeBytes 长度
         //一句话 int len = (stringBuilder.length() + 7) / 8;
@@ -439,6 +439,5 @@ public class Huffman_tree {
         byte[] sourceBytes = decode(huffmanCodes, huffmanCodesBytes);
         System.out.println("原来的字符串=" + new String(sourceBytes)); // "i like like like java do you like a java"
     }
-
 }
 
