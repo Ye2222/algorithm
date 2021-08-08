@@ -1,4 +1,4 @@
-package com.algorithm.datastructure.Tree.The_use_of_tree;
+package com.algorithm.datastructure.Tree;
 
 public class Heap {
     // 堆是完全二叉树

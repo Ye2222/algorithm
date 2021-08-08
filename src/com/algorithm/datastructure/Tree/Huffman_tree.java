@@ -1,4 +1,4 @@
-package com.algorithm.datastructure.Tree.The_use_of_tree;
+package com.algorithm.datastructure.Tree;
 
 
 import com.algorithm.datastructure.Tree.node;

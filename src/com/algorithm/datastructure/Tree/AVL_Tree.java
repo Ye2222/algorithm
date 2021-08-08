@@ -1,7 +1,5 @@
-package com.algorithm.datastructure.Tree.The_use_of_tree;
+package com.algorithm.datastructure.Tree;
 
-import com.algorithm.datastructure.Tree.node;
-import com.algorithm.datastructure.Tree.The_use_of_tree.Binary_sort_tree;
 public class AVL_Tree {
     // AVL树 平衡二叉树，二叉搜索树
     // 可以保证查询效率较高

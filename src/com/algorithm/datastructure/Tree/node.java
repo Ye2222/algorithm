@@ -34,6 +34,7 @@ public class node implements Comparable<node>{
         System.out.print(this.val + " ");
         if(this.right != null) this.right.inOrder();
     }
+
     // BST的search函数
     public node search(int val) {
         if(this.val == val) return this;
@@ -46,6 +47,7 @@ public class node implements Comparable<node>{
             return this.right.search(val);
         }
     }
+
     // BST的searchParent函数
     public node searchParent(int val) {
         // 如果当前节点就是要删除的节点的父节点，就返回
@@ -63,6 +65,7 @@ public class node implements Comparable<node>{
             }
         }
     }
+
     // BST的add函数
     public void add(node node) {
         if(node == null) return;

@@ -1,6 +1,4 @@
-package com.algorithm.datastructure.Tree.The_use_of_tree;
-
-import com.algorithm.datastructure.Tree.node;
+package com.algorithm.datastructure.Tree;
 
 public class Binary_sort_tree {
     // 二叉排序树
